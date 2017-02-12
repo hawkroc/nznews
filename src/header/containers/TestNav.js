@@ -20,7 +20,7 @@ class TestNav extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    selectedKey: state.reducer.selectedKey
+    selectedKey: state.TestReducer.selectedKey
   }
 }
 
