@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
 import TestNav from './header/containers/TestNav';
-import NavbarCon from './header/containers/NavbarCon';
+
+import Header from './header/components/Header'
+
+
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-  
-        <NavbarCon />
+        <Header />
+
       </div>
     );
   }
