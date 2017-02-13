@@ -9,11 +9,16 @@ class TestNav extends Component {
     render() {
         const { selectedKey, handleSelect } = this.props;
         return (
+          <div>
             <Nav bsStyle="pills" activeKey={selectedKey} onSelect={handleSelect}>
                 <NavItem eventKey={1} href="/home">NavItem 1 content</NavItem>
                 <NavItem eventKey={2} title="Item">NavItem 2 content</NavItem>
                 <NavItem eventKey={3} disabled>NavItem 3 content</NavItem>
             </Nav>
+
+</div>
+
+
         );
     }
 }
