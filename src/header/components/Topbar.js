@@ -8,7 +8,7 @@ class Topbar extends Component {
             <div className="topbar">
                 <Grid>
                     <div className="topbar-left">
-                        <span>2017年2月13日 </span>
+                        <span>2017年2月15日 </span>
                         <span> | English </span>
                         <span> | 繁体</span>
                     </div>
